@@ -114,7 +114,7 @@ void AS_Character::Look(const FInputActionValue &Value)
 
 bool AS_Character::CanJumpInternal_Implementation() const
 {
-	// UE-COPY: ACharacter::CanJumpInternal_Implementation()
+	// // UE-COPY: ACharacter::CanJumpInternal_Implementation()
 
 	bool bCanJump = GetCharacterMovement() && GetCharacterMovement()->IsJumpAllowed();
 
