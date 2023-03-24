@@ -147,12 +147,10 @@ void US_CharacterMovement::InitializeComponent()
 	S_Character = Cast<AS_Character>(GetOwner());
 }
 
-
 void US_CharacterMovement::OnRegister()
 {
 	Super::OnRegister();
 }
-
 
 //~ ==== Others ============================================================================================= ~//
 
